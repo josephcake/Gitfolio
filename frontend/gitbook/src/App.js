@@ -111,7 +111,7 @@ class App extends Component {
     fetch(`https://api.github.com/users/${username}/repos?${client_id}&${client_secret}`, {
       method: "GET",
       headers: {
-        'Authorization': 'token c40236b8b1558ffe02b7946d413ccb3f453b1f33',
+        'Authorization': `token ${process.env.REACT_APP_GITAPI_CLIENT_TOKEN}`,
        'User-Agent': 'josephgitbook'
       }
     })
