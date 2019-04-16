@@ -1,0 +1,38 @@
+.CodeContainer{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.CodeOutter{
+  display: block;
+  font-size: 1.5rem;
+}
+
+.CodeOutter h1{
+  text-align: left;
+  margin: 0 2vw;
+}
+
+.CodeInner{
+  margin: 0 2vw;
+  text-align: left;
+  font-size: 2rem;
+  letter-spacing: 2%;
+  max-height: 65vh;
+  max-width: 30vw;
+  overflow-y: auto;
+}
+
+.IdNames{
+  color: rgb(9, 227, 247);
+}
+.keyframes  {
+  color: rgb(255, 107, 220);
+}
+.hover {
+  color: rgb(255, 136, 0);
+}
+.inputRed{
+  color: tomato;
+}

@@ -1,0 +1,301 @@
+/* ##====================================================## */
+/* ##====================================================## */
+/* ##======================DarkTheme=====================## */
+/* ##====================================================## */
+/* ##====================================================## */
+#DarkTheme{
+  height: 100vh;
+}
+#DarkPortfolioContainer{
+  height: 100vh;
+  animation-name: darkThemeEaseIn;
+  animation-duration: 1s;
+}
+@keyframes darkThemeEaseIn{
+  0%{opacity: 0; transform: translateY(1350px)}
+  100%{opacity: 1; transform: translateY(0px)}
+}
+#DarkProfilePic img{
+  width: 80%;
+  margin-top: 10%;
+  border-radius: 10%;
+  box-shadow: 10px 22px 30px 8px rgba(2,2,2,0.27);
+  border: none;
+}
+#DarkProfilePic {
+  text-align: center;
+  align-items: center;
+}
+
+.DarkBio div{
+  width: 100%;
+  height: 30%;
+  max-height: 20vh;
+  /* border: white solid 1px; */
+}
+.DarkBio {
+  height: 25vh;
+}
+#DarkUserInfo {
+  margin-top: 10%;
+  height: 40%;
+}
+#DarkBio{
+  margin-top: 10%;
+  height: 40%;
+}
+#DarkBio h3{
+  font-size: 2em;
+  display: inline-block;
+  margin-top: 13%;
+}
+#DarkUserInfo li{
+
+  display: block;
+  margin-top: 3%;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.DarkBio h3 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.DarkBio li:hover {
+    color: teal;
+}
+.DarkBio h3:hover {
+    color: teal;
+}
+
+#DarkPortfolioContainer {
+  display: flex;
+  margin: 0;
+  width: auto;
+  height: auto;
+  max-height: 100vh;
+}
+
+#DarkPortfolioInnerContainerLeft {
+  display: block;
+  margin: 0;
+  width: 25vw;
+  height: 100vh;
+  color: white;
+  background-color: rgb(26, 39, 58);
+  border: black solid 1px;
+}
+
+.Darkrepo {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 12px;
+  max-height: 58vh;
+}
+
+/* .DarkportComponent .Darkrepo {
+  max-height:
+} */
+.DarkBio{
+  display: flex;
+  height: 35vh;
+}
+
+#DarkRepoContainer {
+  color: white;
+  display: inline-flex;
+  padding: 3px;
+  background-color: rgba(26, 39, 58, 0.7);
+  margin: 4%;
+  -webkit-box-shadow: 10px 22px 30px 8px rgba(0,0,0,0.27);
+  -moz-box-shadow: 10px 22px 30px 8px rgba(0,0,0,0.27);
+  box-shadow: 10px 22px 30px 8px rgba(0,0,0,0.27);
+  border: none;
+  letter-spacing: 4px;
+  word-spacing: 15px;
+  font-weight: 100;
+}
+
+#DarkRepoContainer a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: teal;
+  font-size: 36px;
+}
+#DarkRepoContainer a:hover{
+  color: white;
+}
+
+#DarkPortfolioInnerContainerRight {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  width: 75vw;
+  height: 100vh;
+  color: white;
+  background-color: rgb(8, 40, 61);
+  border-left: yellow solid 12px;
+}
+
+#DarkProject_container {
+  scroll-snap-type: y mandatory;
+  max-height: 90vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* border: black 1px solid; */
+  text-align: center;
+}
+.DarkProject {
+  scroll-snap-align: start;
+  margin-top: 10%;
+}
+
+.DarkProject img {
+  // width: 100%;
+  width: 55vw;
+  height: 55vh;
+  margin-top: 7.5vh;
+  margin-bottom: 10.5vh;
+  border: white 1px solid;
+  box-shadow: 10px 22px 30px 8px rgba(0,0,0,0.27);
+}
+
+#DarkProject_form{
+  width: 90%;
+  max-width: 90%;
+  margin: auto;
+  padding-top: 4rem;
+  // padding-bottom: 2rem;
+}
+#DarkProject_form input{
+  // margin-left: 1%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 200;
+}
+#DarkProject_form input[type="text"]{
+  width: 44%;
+  text-indent: 1rem;
+}
+#DarkProject_form input[type="submit"]{
+  // text-align: right;
+  width: 12%;
+  height: 100%;
+  background-color: rgb(26, 39, 58);
+  color: white;
+}
+
+
+#DarkFooter {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 1rem;
+  height: 3vh;
+}
+#DarkSocialMedia {
+  text-align: left;
+  margin-left: 1rem;
+}
+
+#DarkSocialMedia div{
+  font-size: 250%;
+  display: inline;
+}
+
+#DarkSocialMedia a {
+  font-size: 12px;
+  margin: 1.3vw;
+  text-decoration: none;
+  color: gray;
+  align-items: right;
+}
+#DarkSocialMedia a:hover {
+  color: teal;
+  outline: none;
+}
+
+
+
+
+/* ##====================================================## */
+/* ##====================================================## */
+/* ##======================DarkLanding===================## */
+/* ##====================================================## */
+/* ##====================================================## */
+
+
+
+#DarkLanding {
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  margin: auto;
+  background: black;
+}
+
+#DarkLandingTop{
+  display: flex;
+  height: 95%;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+#DarkLandingTop div{
+  margin: auto;
+}
+#DarkLandingName{
+  margin: auto 0;
+  font-size: 8rem;
+  color: white;
+  text-shadow: 8px 0 0 rgb(252, 172, 0);
+  animation-name: darkName;
+  animation-duration: 2s;
+}
+
+@keyframes darkName {
+  0%{opacity: 0; transform: translateY(-150px)}
+  100%{opacity: 1; transform: translateY(0px)}
+}
+
+
+#DarkLandingAboutMe{
+  display: block;
+  margin: auto 0;
+  font-size: 8rem;
+  color: white;
+  animation-name: darkAboutMe;
+  animation-duration: 2s;
+}
+@keyframes darkAboutMe {
+  0%{opacity: 0; transform: translateY(150px)}
+  100%{opacity: 1; transform: translateY(0px)}
+}
+#DarkLandingAboutMe span {
+  animation: 4s infinite React;
+}
+
+@keyframes React {
+  0%{color: white}
+  50%{color: rgb(0, 216, 255)}
+  100%{color: white}
+}
+
+#DarkLandingScrollDown{
+  height: 5%;
+}
+#DarkLandingScrollDown button{
+  outline: none;
+  border: none;
+  opacity: 0.3;
+  background: grey;
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+}
+#DarkLandingScrollDown button:hover {
+  color: rgb(165, 0, 255);
+  font-size: 2.2rem;
+}

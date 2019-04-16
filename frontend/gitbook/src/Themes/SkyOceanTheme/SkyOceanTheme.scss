@@ -1,0 +1,217 @@
+/* ##====================================================## */
+/* ##====================================================## */
+/* ##==================SkyOceanTheme=====================## */
+/* ##====================================================## */
+/* ##====================================================## */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+$color-container-two: rgb(219, 96, 15);
+
+#SkyOceanPortfolioContainer{
+  display: block;
+  // padding-left: 2rem;
+  // padding-right: 2rem;
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#SkyOceanThemeContainerOne{
+  scroll-snap-align: start;
+  display: flex;
+  height: 101vh;
+  filter: grayscale(0.2);
+  background-image: url('http://mhaw.uk.com/wp-content/uploads/2017/03/computer-2048983_1920-3.jpg');
+  color: black;
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+@keyframes skyoceanAvatar {
+  0%{opacity: 0; transform: translateX(-100px)}
+  100%{opacity: 1; transform: translateX(0px)}
+}
+@keyframes skyoceanBio {
+  0%{opacity: 0; transform: translateX(100px)}
+  70%{opacity: 0.7; transform: translateX(-10px)}
+  100%{opacity: 1; transform: translateX(0px)}
+}
+#SkyOceanprofilePic img{
+  width: 70%;
+  border-radius: 30%;
+}
+#SkyOceanAvatar{
+  display: flex;
+  margin-left: 5vw;
+  margin-right: auto;
+  /* margin-top: 50vh; */
+  position: absolute;
+  top: 32%;
+  left: 22%;
+  width: 20%;
+  animation: skyoceanAvatar;
+  animation-duration: 2s;
+}
+#SkyOceanAvatar img {
+  transform: rotateZ(-25deg);
+}
+#SkyOceanBio{
+  width: 80%;
+  width: 100%;
+  height: 100%;
+  animation: skyoceanBio;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  backface-visibility: hidden;
+}
+#SkyOceanUserInfo{
+  /* margin-top: 20%; */
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+}
+#SkyOceanUserInfo span {
+  font-weight: 900;
+}
+#SkyOceanAvatar h3{
+  transform: rotateZ(-25deg);
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+}
+.SkyOceanrepo {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: auto;
+  max-height: 70vh;
+}
+.SkyOceanProjectsContainer {
+  // display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+}
+
+#SkyOceanProjectsContainer{
+  display: flex;
+  width: 100vw;
+  height: 49vh;
+  // border: red 4px solid;
+}
+
+#SkyOceanProjectForm{
+  // position: absolute;
+  // left: 3rem;
+}
+#SkyOceanProjectForm input{
+  opacity: 0.5;
+  display: block;
+  width: 20vw;
+  // height: 4vh;
+  height: 100%;
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: teal;
+  letter-spacing: 0.2rem;
+  border: none;
+  text-indent: 0.5rem;
+  outline: none;
+  border-bottom: 1px solid lightgrey;
+  text-transform: uppercase;
+}
+
+#SkyOceanProjectForm input[type='submit']:active{
+  transform: translateX(1px) translateY(1px);
+}
+
+.SkyOceanProject {
+  max-height: 50vh;
+  max-width: 27vw;
+  margin-left: 5vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+}
+
+.SkyOceanProject img{
+  // width: 100%;
+  width: 27vw;
+  margin-left: auto;
+  margin-right: auto;
+  // border: green solid 4px;
+  box-shadow: 0px 0px 0px 15px white;
+}
+#SkyOceanThemeContainerTwo {
+  background: url("https://images.wallpaperscraft.com/image/keyboard_apple_black_white_backlit_31066_1920x1200.jpg");
+  width: 100%;
+  display: inline-flex;
+  background-size: cover;
+  // background: rgb(106, 117, 124);
+  height: 100vh;
+  clip-path: polygon(0 25vh, 100% 0, 100% 75vh, 0 100%);
+  padding-top: 26vh;
+  margin-top: -26vh;
+  filter: grayscale(80%);
+}
+#SkyOceanIndieRepo {
+  /* display: inline-flex; */
+  padding: 3px;
+  background-color: rgb(247, 169, 54);
+  margin: 4%;
+  -webkit-box-shadow: 10px 22px 30px 8px rgba(0,0,0,0.27);
+  -moz-box-shadow: 10px 22px 30px 8px rgba(0,0,0,0.27);
+  box-shadow: 10px 22px 30px 8px rgba(0,0,0,0.27);
+  border: none;
+  letter-spacing: 4px;
+  word-spacing: 15px;
+  font-weight: 100;
+  display: inline-flex;
+  opacity: 0.8;
+}
+#SkyOceanIndieRepo a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(47, 51, 56);
+  font-size: 4rem;
+}
+
+#SkyOceanIndieRepo a:hover{
+  color: white;
+}
+
+#SkyOceanThemeContainerThree {
+  width: 100%;
+  display: inline-flex;
+  // background: rgb(95, 63, 117);
+  background-image: url('https://wallup.net/wp-content/uploads/2014/11/colored-pencils-line.jpg');
+  filter: grayscale(0.5);
+  height: 100vh;
+  overflow-x: hidden;
+  z-index: 1;
+  clip-path: polygon(0 25vh, 100% 0, 100% 100vh, 0 100%);
+  padding-top: 25vh;
+  margin-top: -25vh;
+}
+
+#SkyOceanProjectFormContainer {
+  display: flex;
+}
+#hide {
+  margin-top: 130%;
+  // width: 100vw;
+  // height: 100vh;
+  opacity: 0.5;
+  border: none;
+}
+#add {
+  height: 100vh;
+  margin-top: -2vh;
+  opacity: 0.5;
+}

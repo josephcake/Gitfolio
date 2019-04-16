@@ -1,0 +1,336 @@
+.App{
+  display: block;
+  height: 100vh;
+  font-size: 10px;
+  width: 100vw;
+}
+#home{
+  width: 100vw;
+  height: 100vh;
+  background-size: 200% 200%;
+  /* background-color: rgb(247, 249, 249); */
+  display: block;
+  animation: 5s ease-in infinite HomeBackground;
+}
+#home p:nth-of-type(1) {
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-family: 'Megrim', cursive;
+  padding-top: 10vh;
+  margin: auto auto 0 auto;
+  font-weight: 700;
+  width: 50%;
+  /* height: 20%; */
+  font-size: 9rem;
+  text-align: center;
+  color: white;
+  letter-spacing: 3rem;
+}
+#home p:nth-of-type(2){
+  font-family: 'Megrim', cursive;
+  margin: auto;
+  text-align: center;
+  font-weight: 700;
+  /* width: 50%; */
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 1rem;
+}
+
+#home p span:nth-of-type(1):hover{
+  color: teal;
+}
+#home p span:nth-of-type(2):hover{
+  color: coral;
+}
+#home p span:nth-of-type(3):hover{
+  color: gray;
+}
+#home p span:nth-of-type(4):hover{
+  color: tomato;
+}
+#home p span:nth-of-type(5):hover{
+  color: olive;
+}
+#home p span:nth-of-type(6):hover{
+  color: yellow;
+}
+#home p span:nth-of-type(7):hover{
+  color: navy;
+}
+
+
+@keyframes HomeBackground {
+  0%{background:#0c8379}
+  /* 30%{background:#c548b5} */
+  50%{background:#e17116}
+  /* 80%{background:#a8bd39} */
+  100%{background:#0c8379}
+}
+
+#SearchGitUsername{
+  width: 40%;
+  height: 7%;
+  margin: 10vh auto auto auto;
+}
+#SearchGitUsername input {
+  box-shadow: 8px 8px 8px 0px lightgrey;
+  color: teal;
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  font-weight: 200;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  border: white 4px solid;
+  outline: none;
+  text-indent: 1.5rem;
+  border-radius: 1.5rem;
+}
+#SearchGitUsername input:hover {
+  transform: translateX(4px);
+  transform: translateY(4px);
+  box-shadow: 4px 4px 4px 1px lightgrey;
+}
+
+#CodeContainer{
+  position: fixed;
+  background-color: rgba(0, 0, 5, 0.95);
+  z-index: 4;
+}
+#CodeContainer button{
+  position: fixed;
+  top: -1.2rem;
+  right: 8rem;
+  outline: none;
+  border: none;
+  height: 4rem;
+  width: 3rem;
+  border-radius: 10%;
+  background-color: rgba(224, 102, 8, 1);
+  opacity: 0.8;
+}
+#CodeContainer button:hover{
+  transform: translateY(0.8rem);
+}
+#CodeChoice{
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  margin-top: 13rem;
+  z-index: 5;
+  list-style: none;
+  font-size: 4rem;
+  font-weight: 100;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+
+#NavBar {
+  position: fixed;
+  /* background-color: rgba(66, 38, 94, 0.95); */
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: 4;
+}
+#NavBar a{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  letter-spacing: 1rem;
+  text-decoration: none;
+  color: white;
+}
+#NavChoice a:hover {
+  background: white;
+  background-image: linear-gradient(45deg, transparent 0%, rgba(white 0.7) 50%, rgba(white 1) 100%);
+  transform: translateX(1rem);
+  transition: 1.1s;
+  color: rgba(20, 73, 73, 1);
+  cursor: pointer;
+}
+#NavBar button{
+  position: fixed;
+  top: -1.2rem;
+  right: 4rem;
+  outline: none;
+  border: none;
+  height: 4rem;
+  width: 3rem;
+  border-radius: 10%;
+  background-color: rgba(224, 102, 8, 1);
+  opacity: 0.8;
+}
+#NavBar button:hover{
+  transform: translateY(0.8rem);
+}
+
+
+#NavChoice{
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  margin-top: 10rem;
+  z-index: 5;
+  list-style: none;
+  font-size: 4rem;
+  font-weight: 100;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+#NavChoice li {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  letter-spacing: 1rem;
+}
+
+#NavChoice li:hover {
+  background: white;
+  background-image: linear-gradient(45deg, transparent 0%, rgba(white 0.7) 50%, rgba(white 1) 100%);
+  transform: translateX(1rem);
+  transition: 1.1s;
+  color: rgba(20, 73, 73, 1);
+  cursor: pointer;
+}
+
+
+#footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 3vh;
+}
+#SocialMedia {
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+#SocialMedia div{
+  font-size: 1em;
+  margin-left: 2.8vw;
+  margin-right: 2.8vw;
+  display: inline;
+}
+
+#SocialMedia a {
+  font-size: 12px;
+  margin: 1vw;
+  text-decoration: none;
+  color: gray;
+  align-items: right;
+}
+#SocialMedia a:hover {
+  color: teal;
+  outline: none;
+}
+
+#RepoContainer {
+  /* display: inline-flex; */
+  padding: 3px;
+  background-color: white;
+  margin: 4%;
+  -webkit-box-shadow: 10px 22px 30px 8px rgba(0,0,0,0.27);
+  -moz-box-shadow: 10px 22px 30px 8px rgba(0,0,0,0.27);
+  box-shadow: 10px 22px 30px 8px rgba(0,0,0,0.27);
+  border: none;
+  letter-spacing: 4px;
+  word-spacing: 15px;
+  font-weight: 100;
+  display: inline-flex;
+}
+#RepoContainer a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(47, 51, 56);
+  font-size: 36px;
+}
+#RepoContainer a:hover{
+  color: teal;
+}
+
+#errorPage{
+  height:100vh;
+  width: 100vw;
+}
+#errorPage h1{
+  /* font-family: 'Megrim', cursive; */
+  text-align: center;
+  margin: 2vh auto 18vh auto;
+  font-weight: 900;
+  font-size: 22vw;
+  letter-spacing: 5rem;
+  text-shadow: 14px 10px 10px grey;
+}
+#errorPage h1:hover{
+  transform: translateX(2px);
+  transform: translateY(2px);
+  text-shadow: 10px 7px 1px grey;
+  cursor: pointer;
+}
+
+#errorPage h1 span:nth-of-type(1){
+  animation: exclaim1 4s infinite;
+}
+#errorPage h1 span:nth-of-type(2){
+  animation: exclaim2 4s infinite;
+}
+#errorPage h1 span:nth-of-type(3){
+  animation: exclaim3 4s infinite;
+  /* font-size: 10rem; */
+}
+
+@keyframes exclaim1 {
+  0%{color: rgb(117, 4, 4)}
+  45%{color: rgb(155, 73, 10)}
+  100%{color: rgb(117, 4, 4)}
+}
+@keyframes exclaim2 {
+  0%{color: rgb(56, 255, 198)}
+  50%{color: rgb(5, 86, 63)}
+  100%{color: rgb(56, 255, 198)}
+}
+@keyframes exclaim3 {
+  0%{color: rgb(117, 4, 4)}
+  45%{color: rgb(155, 73, 10)}
+  100%{color: rgb(117, 4, 4)}
+}
+
+#errorPage h2{
+  font-family: 'Megrim', cursive;
+  text-align: center;
+  margin: auto;
+  font-size: 3rem;
+  font-weight: 100;
+}
+#errorPage h2 span{
+  color: tomato;
+  animation: wrong 3s infinite;
+}
+@keyframes wrong {
+  0%{color: tomato; font-weight: 100}
+  20%{color: maroon; font-weight: 400}
+  40%{color: red; font-weight: 700}
+  60%{color: orange; font-weight: 700}
+  80%{color: crimson; font-weight: 400}
+  100%{color: tomato; font-weight: 100}
+}
+
+
+/* ##====================================================## */
+/* ##====================================================## */
+/* ##===================ProjectSHITSS====================## */
+/* ##====================================================## */
+/* ##====================================================## */
+
+
+.SkyOceanFollower {
+  display: flex;
+  max-height: 60vh;
+}

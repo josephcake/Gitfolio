@@ -1,0 +1,64 @@
+#josephcake{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(9, 37, 51);
+}
+
+#JoeNav{
+  display: block;
+  margin: 0;
+  // border: solid coral 4px;
+  max-width: 5vw;
+  width: 5vw;
+  height: 100%;
+  background-color: rgb(7, 30, 35);
+}
+
+#JoeLogo{
+  top:-1vh;
+  margin: .5vw;
+  padding: 0;
+  position: absolute;
+  // font-family: 'Dokdo', cursive;
+  font-size: 6rem;
+  text-shadow: 5px 0px rgb(0, 229, 255);
+  color: rgb(255, 199, 0);
+}
+
+#JoeSiteMap i {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: rgb(69, 102, 109);
+}
+#JoeSiteMap i:hover{
+  color: rgb(0, 229, 255);
+}
+
+#JoeSiteMap{
+  position: absolute;
+  top: 25%;
+  font-size: 2.1rem;
+  margin-left: 1vw;
+  margin-right: 0;
+}
+#JoeSocialMedia i {
+  display: block;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+#JoeSocialMedia i:hover {
+  color:rgb(255, 199, 0);
+}
+#JoeSocialMedia{
+  position: absolute;
+  bottom: 20px;
+  font-size: 2.1rem;
+  margin-left: 1vw;
+  margin-right: 0;
+  width: 100%;
+  display: block;
+}

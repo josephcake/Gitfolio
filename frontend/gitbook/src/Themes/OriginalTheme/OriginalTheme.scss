@@ -1,0 +1,211 @@
+/* ##====================================================## */
+/* ##====================================================## */
+/* ##===================OriginalTheme====================## */
+/* ##====================================================## */
+/* ##====================================================## */
+
+
+.OriginalBio{
+  text-align: center;
+  margin: auto;
+  padding-top: 40vh;
+  font-size: 1rem;
+  color: white;
+}
+
+#OriginalUserInfo{
+  margin: auto;
+  font-size: 5rem;
+}
+
+#OriginalSpanName{
+  color: teal;
+  font-weight: 700;
+  text-shadow: 3px 0px 0px rgb(252, 172, 0);
+  letter-spacing: 0.5rem;
+  animation: OriginalName 4s infinite;
+  animation-delay: 3s;
+}
+
+// #OriginalSpanName:hover {
+// }
+@keyframes OriginalName {
+  0%{opacity: 0}
+  20%{opacity: .8}
+  50%{opacity: 1}
+  80%{opacity: .8}
+  100%{opacity: 0}
+}
+
+#OriginalPortfolioContainer {
+  display: block;
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+
+.OriginalportComponentOne{
+  background-color: rgb(51, 23, 36);
+  height: 100vh;
+}
+.OriginalportComponentOne button:hover{
+  background-color: rgba(174, 27, 68, 0.6);
+  transition: ease-in;
+  // transition: all .7s ease;
+  animation: 2s infinite OriginalportComponentOneButton;
+  animation-duration: 1;
+}
+
+@keyframes OriginalportComponentOneButton{
+  0%{transform: translateX(0px);}
+  50%{transform: translateX(50px);}
+  100%{transform: translateX(0px);}
+}
+
+.OriginalportComponentOne button span{
+  color: rgb(186, 26, 101);
+}
+.OriginalportComponentOne button{
+  background-color: rgba(114, 27, 68, 0.6);
+  margin-top: 1.5rem;
+  width: 20vw;
+  height: 8vh;
+  font-size: 2rem;
+  border: white 3px solid;
+}
+
+.OriginalportComponentTwo{
+  height: 100vh;
+  width: 100vw;
+  display: inline-flex;
+  background-color: rgb(249, 249, 249);
+}
+.OriginalportComponentTwo button{
+  width: 3vw;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(101, 0, 173);
+  border: none;
+  outline: none;
+}
+.OriginalportComponentTwo button:hover{
+  animation: 2s infinite OriginalportComponentButton;
+  animation-duration: 1;
+}
+
+@keyframes OriginalportComponentButton {
+  0%{opacity: .5}
+  50%{opacity: 1}
+  100%{opacity: .5}
+}
+
+
+.OriginalportComponentThree button{
+  width: 3vw;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(101, 0, 173);
+  border: none;
+  outline: none;
+}
+
+.OriginalportComponentThree button:hover{
+  animation: 2s infinite OriginalportComponentButton;
+  animation-duration: 1;
+}
+.OriginalportComponentThree button span{
+  left:-3vw;
+}
+
+.rightNavButton{
+  font-size: 2rem;
+}
+.leftNavButton{
+  font-size: 2rem;
+}
+.OriginalProjectComponent{
+  height: 90%;
+  width: 90%;
+  border: lightgrey solid 4px;
+  margin: auto;
+}
+.Originalrepo {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 12px;
+  border: black solid 2px;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+.OriginalportComponentThree{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* ##====================================================## */
+/* ##====================================================## */
+/* ##================OriginalSubmitForm=================## */
+/* ##====================================================## */
+/* ##====================================================## */
+#OriginalProjectForm{
+  width: 90%;
+  max-width: 90%;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+#OriginalSubmitForm input{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 200;
+}
+#OriginalSubmitForm input[type="text"]{
+  width: 44%;
+  box-shadow: 4px 4px 4px grey;
+  text-indent: 1rem;
+}
+#OriginalSubmitForm input[type="submit"]{
+  box-shadow: 4px 4px 4px grey;
+  width: 12%;
+  height: 100%;
+  background-color: rgba(242, 123, 31, 0.8);
+}
+#OriginalSubmitForm {
+  display: flex;
+  max-height: 2rem;
+}
+#OriginalProjectContainer {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  background-color: white;
+}
+#OriginalProjectContainer img{
+  width: 55vw;
+  height: 55vh;
+}
+#OriginalProjectContainer div{
+  scroll-snap-align: start;
+  margin-top: 5%;
+  margin-bottom: auto;
+  width: 100%;
+  height: 100%;
+}
+.OriginalProject{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#OriginalProjectFromContainer{
+  display: block;
+}
